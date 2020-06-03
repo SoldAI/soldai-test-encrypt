@@ -22,3 +22,13 @@
 1. Modify the 'originalValue' constant in the index.js file with the string that is going to be encrypted/decrypted
 2. Run the file 'index.js'
         node index.js
+
+## How to generate a private and public key
+
+#### Private key
+* Within your terminal (Unix based OS) type the following.
+        openssl genrsa -out rsa_1024_priv.pem 1024
+
+#### Public key
+* You can then get the public key by executing the following command.
+        openssl rsa -pubout -in rsa_1024_priv.pem -out rsa_1024_pub.pem
