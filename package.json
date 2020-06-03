@@ -13,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "jsencrypt": "^3.0.0-rc.1"
+    "dotenv": "^8.2.0"
   }
 }

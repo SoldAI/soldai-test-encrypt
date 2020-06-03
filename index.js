@@ -1,7 +1,7 @@
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
-const { JSEncrypt } = require('jsencrypt');
+const { JSEncrypt } = require('./bin/jsencrypt');
 
 const decrypt = new JSEncrypt();
 const encrypt = new JSEncrypt();
